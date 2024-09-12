@@ -17,4 +17,20 @@
         android:id="@+id/action_option4"
         android:title="Option 4"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_option5"
+        android:title="Option 5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_option6"
+        android:title="Option 6"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_option7"
+        android:title="Option 7"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_option8"
+        android:title="Option 8"
+        app:showAsAction="never" />
 </menu>
