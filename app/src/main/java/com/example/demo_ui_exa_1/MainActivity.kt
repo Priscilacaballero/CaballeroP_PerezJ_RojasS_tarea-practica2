@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(){
             }
             R.id.action_option3 -> {
                 supportFragmentManager.beginTransaction().apply {
-                    replace(R.id.fragment_container, FragmentOption3())
+                    replace(R.id.fragment_container, FragmentOption5())
                     addToBackStack(null) // Si deseas agregar este fragmento a la pila de retroceso
                     commit()
                 }
