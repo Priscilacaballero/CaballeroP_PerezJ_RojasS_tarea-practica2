@@ -60,6 +60,38 @@ class MainActivity : AppCompatActivity(){
                 }
                 true
             }
+            R.id.action_option5 -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragment_container, FragmentOption5())
+                    addToBackStack(null) // Si deseas agregar este fragmento a la pila de retroceso
+                    commit()
+                }
+                true
+            }
+            R.id.action_option6 -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragment_container, FragmentOption6())
+                    addToBackStack(null) // Si deseas agregar este fragmento a la pila de retroceso
+                    commit()
+                }
+                true
+            }
+            R.id.action_option7 -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragment_container, FragmentOption7())
+                    addToBackStack(null) // Si deseas agregar este fragmento a la pila de retroceso
+                    commit()
+                }
+                true
+            }
+            R.id.action_option8 -> {
+                supportFragmentManager.beginTransaction().apply {
+                    replace(R.id.fragment_container, FragmentOption8())
+                    addToBackStack(null) // Si deseas agregar este fragmento a la pila de retroceso
+                    commit()
+                }
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
